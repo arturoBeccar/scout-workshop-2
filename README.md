@@ -147,7 +147,7 @@ name: scout-workflow
 on: [push]
 
 jobs:
-  nuevo-test:
+  run-scout:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
