@@ -7,7 +7,7 @@ pub struct MyStruct;
 #[contractimpl]
 impl MyStruct {
     pub fn split_profit(percentage: u32, total_profit: u32) -> u32 {
-        (percentage / 100) * total_profit
+        percentage * total_profit / 100
     }
 }
 
